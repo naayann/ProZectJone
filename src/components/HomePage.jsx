@@ -90,7 +90,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <footer className='text-gray-400 absolute bottom-4 left-36 text-xs font-normal'>
+      <footer className='text-gray-400 absolute bottom-4 w-full text-center text-xs font-normal'>
         &copy; naayann | v.1.0
       </footer>
     </>

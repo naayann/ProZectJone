@@ -12,7 +12,7 @@ const DialogScreen = () => {
       <div className='flex justify-end fixed top-0 right-0 p-5'>
         <p className='font-medium' onClick={ () => setShow(false)}>Skip</p>
       </div>
-      <div className='flex justify-center items-center flex-col mt-25'>
+      <div className='flex justify-center items-center flex-col mt-20'>
         <img src={title} className='w-80'/>
         <img src={logo} className='invert w-50' />
       </div>
