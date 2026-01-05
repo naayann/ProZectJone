@@ -28,7 +28,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="relative h-screen w-full">
+      <div className="relative h-screen w-full md:hidden">
         <img
           src={background}
           alt="background"

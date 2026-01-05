@@ -8,7 +8,7 @@ const DialogScreen = () => {
   if(!show) return null;
 
   return (
-    <div className='bg-gray-100 fixed inset-0 z-999'>
+    <div className='bg-gray-100 fixed inset-0 z-999 md:hidden'>
       <div className='flex justify-end fixed top-0 right-0 p-5'>
         <p className='font-medium' onClick={ () => setShow(false)}>Skip</p>
       </div>
