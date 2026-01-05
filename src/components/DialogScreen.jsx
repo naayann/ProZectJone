@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../assets/logo-light.png'
 import title from '../assets/Title.png'
 
 const DialogScreen = () => {
+  const [show, setShow] = useState(true)
+
+  if(!show) return null;
+
   return (
-    <div>
+    <div className='bg-gray-100 fixed inset-0 z-999'>
       <div className='flex justify-end fixed top-0 right-0 p-5'>
-        <p className='font-medium'>Skip</p>
+        <p className='font-medium' onClick={ () => setShow(false)}>Skip</p>
       </div>
       <div className='flex justify-center items-center flex-col mt-25'>
         <img src={title} className='w-80'/>
